@@ -1,0 +1,249 @@
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+header{
+	background-color: #f7fdfe;
+}
+.top_header{
+	padding: 27px 0 28px;
+}
+.logo{
+	padding-left: 10px;
+	float: left;
+}
+.menu{
+	float: right;
+}
+.menu ul{
+	list-style: none;
+}
+.menu li{
+	display: inline-block;
+	padding: 5px 0 5px 29px;
+}
+.menu a{
+	font-family: 'Roboto-Regular';
+	font-size: 16px;
+	color: #82868f;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.top_header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.menu li:last-child a{
+	background-color: #0ebfdd;
+	color: #fff;
+	padding: 13px 37px;
+	border-radius: 24px;
+}
+.cont_1{
+	background-image: url(../img/cont_1.jpg);
+	min-height: 600px;
+	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.top_text{
+	color: #f7fdfe;
+	font-size: 44px;
+	font-family: 'Roboto-Bold';
+	width: 340px;
+	margin: 0 auto;
+	position: relative;
+}
+.top_info{
+	padding-top: 270px;
+}
+.top_text:after{
+	content: "";
+	background-image: url(../img/star.png);
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.top_text:before{
+	content: "";
+	background-image: url(../img/star.png);
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.cont_2{
+	text-align: center;
+}
+.top_text2{
+	color: #0ebfdd;
+	font-family: 'Roboto-Bold';
+	font-size: 44px;
+	padding-top: 60px;
+}
+.text2{
+	color: #45494d;
+	font-family: 'Roboto-Regular';
+	font-size: 20px;
+	padding-top: 25px;
+	padding-bottom: 65px;
+}
+.cont_3{
+	text-align: center;
+	background-color: #0ebfdd;
+}
+.top_text3{
+	color: #fff;
+	font-family: 'Roboto-Bold';
+	font-size: 44px;
+	padding-top: 50px;
+}
+.team_img{
+	padding-top: 90px;
+}
+.team_img1{
+	display: inline-block;
+	width: 150px;
+}
+.team_img2{
+	display: inline-block;
+	width: 150px;
+	padding-left: 70px;
+}
+.team_img3{
+	display: inline-block;
+	width: 150px;
+	padding-left: 70px;
+}
+.team_text1{
+	color: #f7fdfe;
+	font-size: 18px;
+	font-family: 'Roboto-Bold';
+}
+.team_text1 span{
+	color: #f7fdfe;
+	font-family: 'Roboto-LightItalic';
+	font-size: 18px;
+}
+.team_text2{
+	color: #f7fdfe;
+	font-size: 18px;
+	font-family: 'Roboto-Bold';
+}
+.team_text2 span{
+	color: #f7fdfe;
+	font-family: 'Roboto-LightItalic';
+	font-size: 18px;
+}
+.team_text3{
+	color: #f7fdfe;
+	font-size: 18px;
+	font-family: 'Roboto-Bold';
+}
+.team_text3 span{
+	color: #f7fdfe;
+	font-family: 'Roboto-LightItalic';
+	font-size: 18px;
+}
+.team_btn{
+	padding-top: 95px;
+	padding-bottom: 64px;
+}
+.team_btn a{
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 17px;
+	color: #f7fdfe;
+	font-family: 'Roboto-Regular';
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 10px 35px;
+}
+footer{
+	background-color: #45494d;
+}
+.footer_left{
+	float: left;
+}
+.footer_right{
+	float: right;
+}
+.footer_top:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+footer ul{
+	list-style: none;
+}
+footer li{
+	display: inline-block;
+}
+footer a{
+	text-decoration: none;
+}
+.footer_left li{
+	padding-right: 34px;
+	line-height: 79px;
+}
+.footer_left a{
+	text-transform: uppercase;
+	color: #d7dee4;
+	font-size: 12px;
+}
+.footer_right ul li:first-child a{
+	background-image: url(../img/result.png);
+	width: 40px;
+	height: 40px;
+	background-position: 0 0;
+	display: inline-block;
+}
+.footer_right ul li:nth-child(2) a{
+	background-image: url(../img/result.png);
+	width: 40px;
+	height: 40px;
+	background-position: 0 -50px;
+	display: inline-block;
+}
+.footer_right ul li:nth-child(3) a{
+	background-image: url(../img/result.png);
+	width: 40px;
+	height: 40px;
+	background-position: 0 -100px;
+	display: inline-block;
+}
+.footer_right li{
+	padding-top: 20px;
+	padding-left: 9px;
+}
+.end{
+	float: right;
+}
+.footer_bottom:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.end a{
+	color: #73767a;
+	font-size: 12px;
+}
+.end li{
+	border-left: 1px solid #73767a;
+	padding: 0 10px;
+}
+.end li:first-child{
+	border: none;
+}
+.footer_top{
+	border-bottom: 1px solid #73767a;
+}
+.footer_bottom{
+	padding-top: 10px;
+}
